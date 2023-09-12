@@ -10,3 +10,4 @@
 *.json
 *.wsuo
 /.vs/slnx.sqlite
+*.lock
