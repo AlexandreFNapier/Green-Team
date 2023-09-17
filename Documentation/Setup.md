@@ -54,7 +54,7 @@ and link it to the Github repository in a single action as shown above.
 
 A prompt is shown to select a project template. 
 
-![Create a new project task board.](/images/project-task-board.jpg)
+![Create a new project task board.](https://github.com/wardliii/Green-Team/blob/main/Documentation/images/project-task-board.jpg)
 
 To add a task board, we select ***Board*** from the left hand side, enter an appropriate ***Project Name***, and click the ***Create*** button.
 
