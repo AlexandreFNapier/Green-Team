@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Documentation"
+    "\\Documentation",
+    "\\UNDAC-App"
   ],
+  "SelectedNode": "\\UNDAC-App\\UNDAC-App.csproj.user",
   "PreviewInSolutionExplorer": false
 }
