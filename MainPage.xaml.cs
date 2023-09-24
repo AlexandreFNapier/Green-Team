@@ -9,7 +9,7 @@ namespace UNDAC_App
         public MainPage()
         {
             InitializeComponent();
-           
+            StartDBconn();
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
@@ -22,7 +22,10 @@ namespace UNDAC_App
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
+        }
 
+        public void StartDBconn()
+        {
             var systempath = AppDomain.CurrentDomain.BaseDirectory;
             var fullpath = Path.Combine(systempath, "UNDAC.db");
 
@@ -30,7 +33,6 @@ namespace UNDAC_App
             SQLiteConnection conn = new SQLiteConnection(fullpath);
 
             DBmessage.Text = "Database File & Connection created successfully!";
-
         }
     }
 }
