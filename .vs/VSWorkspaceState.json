@@ -1,9 +1,15 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\Documentation",
     "\\UNDAC-App"
   ],
   "SelectedNode": "\\UNDAC-App\\MainPage.xaml",
+=======
+    ""
+  ],
+  "SelectedNode": "\\UNDAC-App.sln",
+>>>>>>> 6332c694469c675957072e2b49d410633eec57ee
   "PreviewInSolutionExplorer": false
 }
