@@ -35,6 +35,12 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Label
+                x:Name="DBmessage"
+                Text=""
+                SemanticProperties.Hint="DB Message"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 

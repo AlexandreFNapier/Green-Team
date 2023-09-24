@@ -1,4 +1,6 @@
-﻿namespace UNDAC_App
+﻿using SQLite;
+
+namespace UNDAC_App
 {
     public partial class MainPage : ContentPage
     {
@@ -7,6 +9,7 @@
         public MainPage()
         {
             InitializeComponent();
+           
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
@@ -19,6 +22,15 @@
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
+
+            var systempath = AppDomain.CurrentDomain.BaseDirectory;
+            var fullpath = Path.Combine(systempath, "UNDAC.db");
+
+            string filename = "UNDAC.db";
+            SQLiteConnection conn = new SQLiteConnection(fullpath);
+
+            DBmessage.Text = "Database File & Connection created successfully!";
+
         }
     }
 }

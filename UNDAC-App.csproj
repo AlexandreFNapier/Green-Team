@@ -54,4 +54,6 @@
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.6" />
 	</ItemGroup>
 
+	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionUNDACAppHideInfoBar="True" /></VisualStudio></ProjectExtensions>
+
 </Project>
